@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 75%;
     margin: auto;
@@ -43,10 +47,7 @@ body {
     width: 25rem;
     outline: 2px dashed red;
     background-color: #a9a9a98f;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .candidate-head {
@@ -55,6 +56,17 @@ body {
     border-radius: 5%;
 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
+}
+
+.btn-learn-more {
+    all: unset;
+    background-color: #16537E;
+    color: #f3f3f3;
+    width: 7em;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+
+    display: block;
+    margin: auto auto;
 }
