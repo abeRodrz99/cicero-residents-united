@@ -1,0 +1,60 @@
+body {
+    width: 75%;
+    margin: auto;
+    outline: 2px dashed blue;
+} 
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.CRU-logo {
+    height: 50px;
+    width: auto;
+}
+
+.main-view-port {
+    display: flex;
+}
+
+.cicero-img {
+    width: 50%;
+    height: auto;
+}
+
+.candidates {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.candidate-home-profile {
+    height: 30rem;
+    width: 25rem;
+    outline: 2px dashed red;
+    background-color: #a9a9a98f;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.candidate-head {
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
